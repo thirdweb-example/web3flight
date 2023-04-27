@@ -9,13 +9,21 @@
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
+    "@simplewebauthn/browser": "^7.2.0",
     "@thirdweb-dev/chains": "^0.1.11",
-    "@thirdweb-dev/react": "^3.11.9-nightly-e22e4a47-20230424123930",
-    "@thirdweb-dev/sdk": "^3.10.12-nightly-e22e4a47-20230424123930",
-    "@thirdweb-dev/wallets": "^0.2.17-nightly-e22e4a47-20230424123930",
+    "@thirdweb-dev/react": "file:.yalc/@thirdweb-dev/react",
+    "@thirdweb-dev/react-core": "file:.yalc/@thirdweb-dev/react-core",
+    "@thirdweb-dev/sdk": "file:.yalc/@thirdweb-dev/sdk",
+    "@thirdweb-dev/wallets": "file:.yalc/@thirdweb-dev/wallets",
     "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "resolutions": {
+    "@thirdweb-dev/react": "file:.yalc/@thirdweb-dev/react",
+    "@thirdweb-dev/react-core": "file:.yalc/@thirdweb-dev/react-core",
+    "@thirdweb-dev/sdk": "file:.yalc/@thirdweb-dev/sdk",
+    "@thirdweb-dev/wallets": "file:.yalc/@thirdweb-dev/wallets"
   },
   "devDependencies": {
     "@types/react": "^18.0.9",
