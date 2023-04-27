@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@thirdweb-dev/chains": "^0.1.11",
-    "@thirdweb-dev/react": "^3.11.9-nightly-e22e4a47-20230424123930",
-    "@thirdweb-dev/sdk": "^3.10.12-nightly-e22e4a47-20230424123930",
-    "@thirdweb-dev/wallets": "^0.2.17-nightly-e22e4a47-20230424123930",
+    "@thirdweb-dev/react": "0.0.0-dev-c7c6d18-20230427000247",
+    "@thirdweb-dev/sdk": "0.0.0-dev-c7c6d18-20230427000247",
+    "@thirdweb-dev/wallets": "0.0.0-dev-c7c6d18-20230427000247",
     "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
